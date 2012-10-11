@@ -1,0 +1,18 @@
+Version 2.5
+	Added variable funds depending on difficulty level.
+	Changed diggers-only mode. Added a boolean to determine if player weapons are despawned. Change it in the code (it's commented, first line inside the first function).
+Version 2.3
+	Added diggers-only mode.
+	Updated the code to use the new faction system instead of hard-coded factions and equipment.
+
+Version 2.2
+	Fixed the timer so it doesn't start before all players have their soldiers ready.
+
+Version 2.1
+	Bug fixing.
+
+Version 2
+	Added multiple player support.
+
+Version 1
+	First version, very hacky.
