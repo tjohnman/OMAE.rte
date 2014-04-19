@@ -159,7 +159,7 @@ function OMAE:UpdateActivity()
 				local actor = {}
 				for x = 0, math.ceil(math.random(3)) do
 
-	                if math.random() >= rte.CrabToHumanSpawnRatio then
+	                if math.random() >= 0.2 then
 						actor[x] = RandomAHuman("Any", self.CPUTechName);
 					else
 						actor[x] = RandomACrab("Any", self.CPUTechName);
